@@ -1,0 +1,20 @@
+Playlist CSS GRID
+
+#1 Apa itu Css Grid
+
+Css Grid, "Modul CSS *baru* untuk mendefinisikan sistem layout berbentuk grid dalam 2 dimensi (baris & kolom).
+Jika Flexbox 1 Dimensi (hanya mengatur baris / col saja) jika Grid 2 Dimensi (mengatur baris sekaligus kolom).
+
+Untuk menjalankannya dengan memanggil property css 
+    .container {
+        display: grid;
+    }
+
+
+Jika menggunakan Float harus menggunakan clear atau dengan cara berikut
+.content::after {
+    content: '';
+    display: block;
+    clear: both;   
+}
+
