@@ -18,3 +18,17 @@ Jika menggunakan Float harus menggunakan clear atau dengan cara berikut
     clear: both;   
 }
 
+
+
+
+#2 Terminologi / istilah istilah pada Css Grid
+
+> Grid container, Element Pembungkus grid, didefinisikan dengan menuliskan display: grid;
+> Grid item, Element-Element yang berada (1level) di dalam grid container 
+> Grid line, Garis Horizontal (kolom) atau Vertikal (baris) yang memisahkan grid menjadi beberapa bagian dan ditandai dengan angka.
+> Grid cell, Perpotongan / pertemuan antar baris dan kolom di dalam grid.
+> Grid area, Kumpulan lebih dari satu grid cell yang membentuk kotak.
+> Grid track, Ukuran / jarak antara 2 grid line, bisa horizontal (kolom) atau vertikal (baris)
+> Grid gap, Jarak antar grid track / cell.
+
+Akan menggunakan Mozila Firefox sebagai web browser karena Firefox memiliki fitur grid inspector.
