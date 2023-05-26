@@ -32,3 +32,34 @@ Jika menggunakan Float harus menggunakan clear atau dengan cara berikut
 > Grid gap, Jarak antar grid track / cell.
 
 Akan menggunakan Mozila Firefox sebagai web browser karena Firefox memiliki fitur grid inspector.
+
+
+
+
+
+#3 Column & Rows 
+
+grid-template-columns & grid-template-rows
+    = Mendefinisikan kolom / baris dengan cara menuliskan nilai dipisahkan oleh spasi. Nilai merepresentasikan ukuran grid track dan spasi merepresentasikan grid line.
+
+    display: grid;
+    grid-template-columns: <track-size> ... | <line-name> <track-size> ... ;
+    grid-template-rows: <track-size> ... | <line-name> <track-size> ... ;
+
+    track-size : bisa berupa px, % , auto, atau fr(fraction / bagian)
+    line-name : nama yang bisa diberikan pada track
+
+
+Explicit & Implicit Grid
+Explicit, secara jelas kita menuliskan ukuran untuk kolom dan barisnya.
+Implicit, ketika gridnya menentukan secara otomatis sisanya.
+
+Auto Columns & Auto Rows
+Untuk menangani item implicit
+
+grid-auto-columns & grid-auto-rows 
+    = Mengatur ukuran grid track yang tidak dituliskan pada grid-template (implicit track)
+
+Auto Flow
+grid-auto-flow: row | columns | row dense | column dense;
+    = Mengatur penempatan item / cell pada grid track, termasuk yang dituliskan secara implicit
