@@ -63,3 +63,13 @@ grid-auto-columns & grid-auto-rows
 Auto Flow
 grid-auto-flow: row | columns | row dense | column dense;
     = Mengatur penempatan item / cell pada grid track, termasuk yang dituliskan secara implicit
+
+
+
+
+#4 Special Keywords & Functions
+
+> repeat(), Menentukan ukuran dari grid-track secara berulang.
+> min-content & max-content, Untuk menentukan seberapa besar ukuran grid-track berdasarkan content pada sebuah item. 
+> minmax(), Menentukan ukuran minimal & maksimal dari grid-track.
+> auto-fill & auto-fit, Menentukan jumlah item untuk berada pada grid-track. Biasanya digunakan di dalam nilai repeat.
